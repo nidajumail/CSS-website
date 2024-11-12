@@ -1,0 +1,78 @@
+.edu-con{
+width: 100%;
+height: 100%;
+margin-top: 40px;
+margin-bottom: 50px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.edu-text{
+    width: 50%;
+    margin-top: 20px;
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-boxes{
+    width: 80%;
+    margin-top: 10px;
+    display:flex;
+margin-bottom: 5px;
+ background-color: beige; 
+ border:2px solid gray;
+ padding: 10px;  
+
+}
+.edu-right-box{
+   
+    display:flex;
+    justify-content: space-between;
+   
+  
+  
+   
+}
+
+
+.uni{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.des-edu{
+    width:70%;
+  margin-left: 100px;
+ 
+}
+
+
+
+.para1-edu{
+    margin-bottom: 30px;
+}
+
+
+.para1{
+    font-size:20px;
+}
+@media screen and (min-width-100px) and (max-width-750px){
+    .edu-boxes{
+    
+      
+        width:80%;
+    }
+    .edu-right-box{
+   
+    flex-direction: column;
+    width:60%;
+}
+.edu-text{
+    width: 80%;}
+
+}

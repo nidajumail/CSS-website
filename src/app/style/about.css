@@ -1,0 +1,19 @@
+.social-logos{
+    display:flex;
+    justify-content:space-evenly;
+}
+.y-icon{
+    color: red;
+}
+.y-icon1{
+    color: rgb(214, 80, 103);
+}
+.y-icon2{
+    color: rgb(79, 177, 235);
+}
+.y-icon3{
+    color: rgb(57, 55, 185);
+}
+.des-head{
+    font-size: 20px;
+}
